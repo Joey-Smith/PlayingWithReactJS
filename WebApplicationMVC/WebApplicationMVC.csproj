@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\js\microsoft\**" />
+    <Content Remove="wwwroot\js\microsoft\**" />
+    <EmbeddedResource Remove="wwwroot\js\microsoft\**" />
+    <None Remove="wwwroot\js\microsoft\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="JavaScriptEngineSwitcher.Extensions.MsDependencyInjection" Version="3.24.1" />
     <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.24.2" />
     <PackageReference Include="JavaScriptEngineSwitcher.V8.Native.win-x64" Version="3.24.2" />
