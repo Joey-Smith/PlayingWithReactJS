@@ -4,7 +4,7 @@ namespace WebApplicationMVC.Controllers
 {
     public class SignalRController : Controller
     {
-        public IActionResult Chat()
+        public IActionResult SignalR()
         {
             return View();
         }
